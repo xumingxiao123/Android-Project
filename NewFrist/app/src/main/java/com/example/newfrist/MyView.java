@@ -34,10 +34,10 @@ public class MyView extends View {
         //设置画笔颜色为蓝色
         p.setColor(Color.BLUE);
         //绘制圆心的X,Y坐标,半径,画笔
-        canvas.drawCircle(currentX,currentY,30,p);
-        //设置文字和颜色，这里的颜色就是
+        canvas.drawCircle(currentX,currentY,60,p);
+        //设置文字和颜色
         p.setColor(textColor);
-        canvas.drawText("BY finch",currentX-30,currentY+50,p);
+        canvas.drawText("BY finch",currentX,currentY+100,p);
     }
 
     @Override
