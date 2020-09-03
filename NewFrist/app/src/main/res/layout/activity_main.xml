@@ -15,7 +15,7 @@
             android:layout_height="wrap_content"
             myview:text = "test"
             myview:textColor ="#ff0000"
-            />
+        />
     </RelativeLayout>
 <!--    <TextView-->
 <!--        android:layout_width="wrap_content"-->
